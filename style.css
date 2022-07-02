@@ -1,0 +1,135 @@
+.Main {
+  background: url(./img/main.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  background-position: center;
+}
+.Main .Btn {
+  position: absolute;
+  right: 0px;
+}
+.Main .Main-body {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+}
+.Time {
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Time .Time_Day {
+  word-spacing: 1.6em;
+  font-size: 4.9em;
+}
+.Time .Time_Text {
+  font-size: 1.9em;
+  letter-spacing: 0.15em;
+}
+.Time .Time_Text span {
+  margin: 0 1em 0 2em;
+}
+.Text {
+  font-size: 2em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .w-50::placeholder {
+  font-size: 0.8em;
+  outline: none;
+}
+.Body_Section {
+  box-shadow: 10px 30px 80px 10px black;
+}
+.Body_Section .Img_Div,
+.Body_Section .Img_Div .Last-card {
+  padding: 0;
+}
+.Body_Section .Img_Div img,
+.Body_Section .Img_Div .Last-card img {
+  border-radius: 0;
+}
+.Body_Section .Img_Div .Image-Div .h-100 {
+  object-fit: cover;
+}
+.Body_Section .Text_Div {
+  background-color: rgb(49, 57, 68);
+  color: white;
+  padding: 6% 5% 0% 5%;
+}
+.Footer {
+  color: white;
+  background-color: rgb(49, 57, 68);
+}
+.Footer .Footer-Text .Logo-Border {
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  width: 56%;
+}
+.Footer .Footer-Text h5 {
+  text-align: left;
+}
+.Footer .Footer-Text .List-header,
+.Footer .Footer-Text .List {
+  text-align: left;
+}
+.Footer .Footer-Text .Form .Text-input {
+  width: 100%;
+  padding: 6px 2px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+.Footer .Footer-Text .Form .btn {
+  width: 6em;
+}
+.Footer .Last-Div .Last-Main {
+  margin: 0 0px 0 0;
+}
+.Footer .Div-Li .List {
+  line-height: 1.57em;
+}
+.Footer .Last-Div .Last-Main .content-Div {
+  margin-left: 2.4em;
+}
+@media screen and (max-width: 576px) {
+  .Main-body .Time .Time_Day {
+    font-size: 2.8em;
+    word-spacing: 0.6em;
+  }
+  .Main-body .Time .Time_Text {
+    font-size: 1em;
+  }
+  .Time .Time_Text span {
+    margin: 0 0.1em 0 1.2em;
+  }
+  .Footer .Last-Div .Last-Main .List-Div,
+  .Footer .Last-Div .Last-Main .List-Div li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .Footer .Last-Div .Last-Main .content-Div {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 280px) {
+  .Main-body .Time .Time_Day {
+    font-size: 2em;
+  }
+  .Main-body .Time .Time_Text {
+    font-size: 0.8em;
+  }
+}
